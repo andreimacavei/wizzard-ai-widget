@@ -105,7 +105,9 @@ function loadStyle() {
         top: 0;
     }
     .micro-ai-menu.show {
-        display: block;
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
     }
     .micro-ai-menu-item {
         cursor: pointer;
@@ -134,7 +136,7 @@ function loadStyle() {
         height: 1em;
         display: inline-block;
         right: 0.5em;
-        position: absolute;
+        position: revert;
         font-family: monospace;
     }
     `;
