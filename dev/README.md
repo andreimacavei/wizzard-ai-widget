@@ -1,0 +1,1 @@
+These files are only to test how the wizzard-ai widget is styled without having to modify the entire widget code. The `prod` ready widget is in `js/wizzardai.js` and is loaded in the `index.html` file from the root of the project
