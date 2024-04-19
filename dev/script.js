@@ -1,4 +1,4 @@
-let BASE_URL = 'http://localhost:3000/api/enhance';
+let BASE_URL = 'http://localhost:5000/api/enhance';
 
 function emToPixels(em, contextElement) {
   // If no context element is provided, default to the document's root element (<html>)
